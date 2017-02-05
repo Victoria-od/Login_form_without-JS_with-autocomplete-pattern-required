@@ -1,0 +1,100 @@
+body{
+	margin:0;
+	padding:0;
+	background-color:#c6c9cc;
+}
+fieldset{
+	background-color:#fff;
+	width:430px;
+	height:609px;
+	border:0;
+	margin:0 auto;
+	margin-top:20px;
+	font-family: 'Open Sans', sans-serif;
+	color:#648880;
+	font-size:16px;
+	margin-bottom:20px;
+	outline:none;
+	padding:40px;
+	border-radius:5px;
+}
+
+input[type="text"],
+input[type="email"],
+select, 
+textarea{
+	border: 1px solid #c6c9cc;
+	border-radius:5px;
+	margin-bottom:35px;
+	padding:12px;
+	margin-top:12px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea{
+	width:100%;
+	box-sizing:border-box;
+}
+
+select{
+	width:20%;
+}
+
+textarea{
+	height:97px;
+	font-family: 'Open Sans', sans-serif;
+	font-size:16px;	
+	color:#648880;
+	outline:none;
+}
+
+textarea:hover{
+	height:97px;
+	font-family: 'Open Sans', sans-serif;
+	font-size:16px;	
+	color:#648880;
+	outline:none;
+	background-color:#ffdc5f;
+}	
+
+button{
+	border:0;
+	width:50%;	
+	background-color:#648880;
+	text-transform:uppercase;
+	font-weight:bold;
+	color:#fff;
+	padding-left:40px;
+	padding-right:40px;
+	padding-top:20px;
+	padding-bottom:20px;
+	text-align:center;
+	border-radius:5px;
+	margin-top:-5px;
+	cursor:pointer;
+}
+
+button:hover{
+	background-color:#ffdc5f;
+	color:#648880;
+}
+input:hover{
+	background-color:#ffdc5f;
+}
+
+input, select{
+	font-family: 'Open Sans', sans-serif;
+	font-size:16px;	
+	color:#c6c9cc;
+	outline:none;
+}
+input::-webkit-input-placeholder       {text-indent: 0px;   transition: text-indent 0.5s ease;}
+input::-moz-placeholder                {text-indent: 0px;   transition: text-indent 0.5s ease;}
+input:-moz-placeholder                 {text-indent: 0px;   transition: text-indent 0.5s ease;}
+input:-ms-input-placeholder            {text-indent: 0px;   transition: text-indent 0.5s ease;}
+input:focus::-webkit-input-placeholder {text-indent: 500px; transition: text-indent 0.5s ease;}
+input:focus::-moz-placeholder          {text-indent: 500px; transition: text-indent 0.5s ease;}
+input:focus:-moz-placeholder           {text-indent: 500px; transition: text-indent 0.5s ease;}
+input:focus:-ms-input-placeholder      {text-indent: 500px; transition: text-indent 0.5s ease;}
+
